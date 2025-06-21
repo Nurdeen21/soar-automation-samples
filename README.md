@@ -13,5 +13,11 @@ To demonstrate how security teams can automate common incident response tasks us
 - Automated IOC enrichment workflow
 - Cloud incident auto-remediation flow
 
+
+## 🛠 Scripts
+- `scripts/extract-iocs.py` — Extract IOCs from text for use in automation
+- `scripts/enrich-url.py` — URL enrichment stub for threat intel queries
+- `scripts/slack-notify.py` — Send Slack alerts from playbooks
+
 ## 🚀 Status
 🚧 In progress — follow for updates as I add playbooks and documentation.
