@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {
+      "action": "ip reputation",
+      "app": "VirusTotal",
+      "parameters": {
+        "ip": "{input.ip}"
+      }
+    }
+  ]
+}
