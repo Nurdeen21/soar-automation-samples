@@ -1,0 +1,7 @@
+# XSOAR playbook snippet (YAML)
+- tasks:
+  - id: 1
+    task:
+      script: ExtractIndicatorsFromEmail
+      args:
+        email: ${inputs.email}
