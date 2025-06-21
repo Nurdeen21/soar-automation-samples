@@ -1,0 +1,17 @@
+{
+  "type": "Microsoft.Logic/workflows",
+  "properties": {
+    "definition": {
+      "actions": {
+        "IsolateVM": {
+          "type": "ApiConnection",
+          "inputs": {
+            "method": "post",
+            "path": "/subscriptions/{subscription-id}/resourceGroups/{rg}/providers/Microsoft.Compute/virtualMachines/{vm}/isolate",
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      }
+    }
+  }
+}
